@@ -1,0 +1,69 @@
+name: hobby_hub_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.1.1
+  skeletons: ^0.0.3
+  uuid: ^4.4.0
+  json_annotation: ^4.8.1
+  logger: ^2.2.0
+  retrofit: ^4.1.0
+  intl: ^0.18.1
+  flutter_secure_storage: ^9.0.0 
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.5
+  flutter_screenutil: ^5.9.1
+  easy_localization: ^3.0.3
+  provider: ^6.1.2
+  flutter_svg: ^2.0.10+1
+  rxdart: ^0.27.7
+  cloud_firestore: ^4.17.3
+  shared_preferences: ^2.2.3
+  tuple: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.9
+  retrofit_generator: ^8.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/icons/login/
+    - assets/icons/splash/
+    - assets/images/
+    - assets/svg/
+    - assets/translations/
+
+  fonts:
+    - family: pretendard
+      fonts:
+        - asset: assets/fonts/pretendard/Pretendard-Thin.otf
+          weight: 100
+        - asset: assets/fonts/pretendard/Pretendard-Light.otf
+          weight: 300
+        - asset: assets/fonts/pretendard/Pretendard-Regular.otf
+          weight: 400
+        - asset: assets/fonts/pretendard/Pretendard-Medium.otf
+          weight: 500
+        - asset: assets/fonts/pretendard/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/pretendard/Pretendard-Bold.otf
+          weight: 700
+        - asset: assets/fonts/pretendard/Pretendard-ExtraBold.otf
+          weight: 800
+        - asset: assets/fonts/pretendard/Pretendard-Black.otf
+          weight: 900
